@@ -31,3 +31,12 @@ footer {
   background-color: black;
   color: white;
 }
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust the height as needed */
+  background-color: black;
+  color: white;
+}
