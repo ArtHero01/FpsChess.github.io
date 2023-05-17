@@ -2,12 +2,12 @@
 /*styles.css*/
 body {
   font-family: Arial, sansserif;
-background-color: #f2f2f23a;
+background-color: darkorchid;
 }
 
 header {
-  background-color: rgba(51, 51, 51, 0.213);
-color: rgba(255, 255, 255, 0.219);
+  background-color: none;
+color: black;
 padding: 20px;
 }
 
