@@ -20,9 +20,9 @@
 
   <nav>
     <ul>
-      <li><a href="#">Startseite</a></li>
-      <li><a href="#">Über uns</a></li>
-      <li><a href="#">Kontakt</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#" id="about-link">Abouts us</a></li>
+      <li><a href="#">Contact</a></li>
     </ul>
   </nav>
 
@@ -51,6 +51,25 @@
     </section>
   </main>
 
-  <script src="js/script.js"></script>
+  <div id="about-info" style="display: none;">
+    <h2>About us</h2>
+    <p>We are a young Brand hoping of reaching our dreams and beyond into the Universe,with our fashionable clothing items.</p>
+  </div>
+  
+  <script>
+    // Warten, bis das DOM vollständig geladen ist
+    document.addEventListener("DOMContentLoaded", function() {
+      // Greifen Sie auf das Link-Element und das Info-Element zu
+      var aboutLink = document.getElementById("about-link");
+      var aboutInfo = document.getElementById("about-info");
+      
+      // Fügen Sie einen Event Listener hinzu, um auf den Klick des Links zu reagieren
+      aboutLink.addEventListener("click", function(event) {
+        event.preventDefault(); // Verhindern Sie das Standardverhalten des Links
+        aboutInfo.style.display = "block"; // Zeigen Sie das Info-Element an
+      });
+    });
+  </script>
+  
 </body>
 </html>
