@@ -2,7 +2,7 @@
 /*styles.css*/
 body {
   font-family: Arial, sansserif;
-background-color: darkorchid;
+background-color: darkbrown;
 }
 
 header {
@@ -12,9 +12,9 @@ padding: 20px;
 }
 
 nav u1 {
-list-style-type: none;
-margin: 0;
-padding: 0;
+list-style-type: square;
+margin: 5;
+padding: 10px;
 }
 
 nav u1 1i {
