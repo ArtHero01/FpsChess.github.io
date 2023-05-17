@@ -1,15 +1,15 @@
 
 /*styles.css*/
 body {
-  font-family: Arial, sansserif;
-background-color: darkbrown;
+  background-color: darkbrown;
+  color: white;
 }
 
 header {
-  background-color: none;
-color: black;
-padding: 20px;
+  background-color: black;
+  color: white;
 }
+
 
 nav u1 {
 list-style-type: square;
@@ -30,6 +30,5 @@ section {
 
 footer {
   background-color: black;
-  color: black;
-  padding: 10px;
+  color: white;
 }
