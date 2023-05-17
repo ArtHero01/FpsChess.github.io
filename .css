@@ -2,12 +2,12 @@
 /*styles.css*/
 body {
   font-family: Arial, sansserif;
-background-color: #f2f2f2;
+background-color: #f2f2f23a;
 }
 
 header {
-  background-color: #333;
-color: #fff;
+  background-color: rgba(51, 51, 51, 0.213);
+color: rgba(255, 255, 255, 0.219);
 padding: 20px;
 }
 
@@ -29,7 +29,7 @@ section {
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: rgba(51, 51, 51, 0.218);
+  color: rgba(255, 255, 255, 0.217);
   padding: 10px;
 }
