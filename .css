@@ -17,11 +17,11 @@ margin: 5;
 padding: 10px;
 }
 
-nav u1 1i {
+nav u1  {
   display: inline-block;
   padding: 10px;
   color: #fff;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 section {
@@ -29,7 +29,7 @@ section {
 }
 
 footer {
-  background-color: rgba(51, 51, 51, 0.218);
-  color: rgba(255, 255, 255, 0.217);
+  background-color: black;
+  color: black;
   padding: 10px;
 }
