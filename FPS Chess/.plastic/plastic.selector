@@ -1,4 +1,0 @@
-repository "FPS Chess/FPS Chess@4674042707951@cloud"
-  path "/"
-    br "/main"
-    co "/main"
